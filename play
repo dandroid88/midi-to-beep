@@ -1,0 +1,8 @@
+#!/bin/bash
+
+midicsv $1 $1.csv
+./midi-to-beep.py -f $1.csv
+chmod +x ${1#.csv}.beep
+./$1.beep
+rm $1.beep
+rm $1.csv
