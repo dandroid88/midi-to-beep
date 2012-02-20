@@ -1,0 +1,4 @@
+Thanks to John Walker for midicsv - a utility to convert midi files into csv files.
+This is in the public domain, and honestly why would you do anything with it...
+
+In order to use this software, install the midicsv tool (untar and read its README) and ensure your pcspkr is enabled (may have to 'sudo modprobe pcspkr').
